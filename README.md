@@ -12,7 +12,7 @@ cryptography
     * [AES](AES/aes.md)
         * [GCM - Galois/Counter Mode](AES/Gcm.md)
 * `Asymmetric` - uses public key to encrypt & private key to descrypt data
-    * RSA
+    * [RSA](RSA/rsa.md)
     * ECC
 
 ## Building blocks
@@ -23,7 +23,7 @@ cryptography
 * [Advanced Encryption Standard (AES)](AES/aes.md)
 * Block encryption operating models
 * Authenticated encryption
-* RSA public key cryptosystem
+* [RSA public key cryptosystem](RSA/rsa.md)
 * Elliptic curve public key cryptosystem
 * Diffie-Helman key exchange
 * X.509 digital certificates
