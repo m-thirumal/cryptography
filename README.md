@@ -10,7 +10,7 @@ cryptography
 
 * `Symmetric` - uses same key to encrypt & decrypt data
     * [AES](AES/aes.md)
-        * [GCM - Galois/Counter Mode](AES/Gcm.md)
+        * [GCM - Galois/Counter Mode](AES/gcm.md)
 * `Asymmetric` - uses public key to encrypt & private key to descrypt data
     * [RSA](RSA/rsa.md)
     * ECC
