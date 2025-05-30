@@ -20,8 +20,10 @@ Key Concepts:
 * CBC
 * [GCM - Galois/Counter Mode](AES/gcm.md)
 
-| Mode    | Padding?   | Integrity check?  | Notes                            |
+| Mode    | [Padding](AES/padding.md)   | Integrity check?  | Notes                            |
 | ------- | ---------  | ----------------- | -------------------------------- |
 | ECB     | ✅        | ❌                | Weak — don't use.                |
 | CBC     | ✅        | ❌                | Better, but needs padding & IV.  |
 | GCM     | ❌        | ✅                | ✅ Recommended for modern use!   |
+
+# [Padding](AES/padding.md)
