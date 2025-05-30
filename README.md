@@ -6,12 +6,20 @@ cryptography
 * [Repudiation]  - denial of the truth or validity of something.
 * Non-reudiation - Can't deny
 
+## Symmetric and Asymmetric Encryption
+
+* `Symmetric` - uses same key to encrypt & decrypt data
+    * [AES](AES/aes.md)
+* `Asymmetric` - uses public key to encrypt & private key to descrypt data
+    * RSA
+    * ECC
+
 ## Building blocks
 
 * Cryptographic Hash Functions
 * Message Authentication Code (MAC)
 * Hashed Message Authentication Code (HMAC)
-* Advanced Encryption Standard (AES)
+* [Advanced Encryption Standard (AES)](AES/aes.md)
 * Block encryption operating models
 * Authenticated encryption
 * RSA public key cryptosystem
