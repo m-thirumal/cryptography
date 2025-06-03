@@ -13,6 +13,8 @@
 * `Asymmetric` - uses public key to encrypt & private key to descrypt data
     * [RSA](RSA/rsa.md)
     * ECC
+    * [ECDH - Elliptic Curve Diffie-Hellman](ECDH/ecdh.md)
+
 
 ## Building blocks
 
