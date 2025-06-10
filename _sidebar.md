@@ -4,4 +4,4 @@
 * [RSA](RSA/rsa.md)
 * [ECDH - Elliptic Curve Diffie-Hellman](ECDH/ecdh.md)
 * [Hybrid Cryptography](hybrid-cryptography/hybrid-cryptography.md)
-  * [ECDH-GCM](/hybrid-cryptography/ecdh-gcm/echd-gcm.md) - ECDH for key exchange & GCM for encryption/decryption
+  * [ECDH-GCM](/hybrid-cryptography/ecdh-gcm/echd-gcm.md)
