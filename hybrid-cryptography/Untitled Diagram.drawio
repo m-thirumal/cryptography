@@ -4,6 +4,93 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jhHZkxdW6vcV8rd79qtP-1" value="Client/Browser" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="60" y="80" width="100" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="jhHZkxdW6vcV8rd79qtP-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="jhHZkxdW6vcV8rd79qtP-1">
+          <mxGeometry x="45" y="90" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jhHZkxdW6vcV8rd79qtP-6" value="1. Generate ECDH key pair" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="jhHZkxdW6vcV8rd79qtP-5" parent="jhHZkxdW6vcV8rd79qtP-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="70" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jhHZkxdW6vcV8rd79qtP-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="jhHZkxdW6vcV8rd79qtP-1">
+          <mxGeometry x="45" y="330" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jhHZkxdW6vcV8rd79qtP-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="jhHZkxdW6vcV8rd79qtP-1">
+          <mxGeometry x="50" y="480" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jhHZkxdW6vcV8rd79qtP-16" value="&lt;div&gt;8. Imports Server&#39;s Public Key&lt;/div&gt;&lt;div&gt;9. Derives shared secret&lt;/div&gt;&lt;div&gt;10. Hashes shared secret (SHA-256)&lt;/div&gt;&lt;div&gt;11. Prepares AES key&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="jhHZkxdW6vcV8rd79qtP-15" parent="jhHZkxdW6vcV8rd79qtP-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="460" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jhHZkxdW6vcV8rd79qtP-17" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="jhHZkxdW6vcV8rd79qtP-1">
+          <mxGeometry x="50" y="550" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jhHZkxdW6vcV8rd79qtP-18" value="&lt;div&gt;1. Encrypts test message&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" target="jhHZkxdW6vcV8rd79qtP-17" parent="jhHZkxdW6vcV8rd79qtP-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="550" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="60" y="580" />
+              <mxPoint x="90" y="580" />
+              <mxPoint x="90" y="555" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jhHZkxdW6vcV8rd79qtP-2" value="Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="100" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="jhHZkxdW6vcV8rd79qtP-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="jhHZkxdW6vcV8rd79qtP-2">
+          <mxGeometry x="45" y="110" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jhHZkxdW6vcV8rd79qtP-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="jhHZkxdW6vcV8rd79qtP-2">
+          <mxGeometry x="50" y="250" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jhHZkxdW6vcV8rd79qtP-12" value="&lt;div&gt;3. Generates ECDH key pair&lt;/div&gt;&lt;div&gt;4. Derives shared secret&lt;/div&gt;&lt;div&gt;5. Hashes shared secret (SHA-256)&lt;/div&gt;&lt;div&gt;6. Prepares AES key&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="jhHZkxdW6vcV8rd79qtP-11" parent="jhHZkxdW6vcV8rd79qtP-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="230" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jhHZkxdW6vcV8rd79qtP-19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="jhHZkxdW6vcV8rd79qtP-2">
+          <mxGeometry x="45" y="610" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jhHZkxdW6vcV8rd79qtP-8" value="2. Send Client Public Key" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="jhHZkxdW6vcV8rd79qtP-7" parent="1" source="jhHZkxdW6vcV8rd79qtP-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="195" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jhHZkxdW6vcV8rd79qtP-14" value="7. Server sends its Public Key" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1" source="jhHZkxdW6vcV8rd79qtP-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="430" as="sourcePoint" />
+            <mxPoint x="120" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jhHZkxdW6vcV8rd79qtP-20" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="jhHZkxdW6vcV8rd79qtP-19" parent="1" source="jhHZkxdW6vcV8rd79qtP-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="670" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jhHZkxdW6vcV8rd79qtP-22" value="Send ciphertext + IV to Server&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jhHZkxdW6vcV8rd79qtP-20">
+          <mxGeometry x="-0.006" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jhHZkxdW6vcV8rd79qtP-21" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="jhHZkxdW6vcV8rd79qtP-19" parent="1" target="jhHZkxdW6vcV8rd79qtP-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
